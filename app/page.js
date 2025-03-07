@@ -65,7 +65,7 @@ export default function Home() {
         >
           <nav className="grid w-full place-items-center border-b border-white backdrop-blur">
             <ul className="flex gap-8">
-              <NavItem href="https://arxiv.org/">Paper</NavItem>
+              <NavItem href="https://huggingface.co/papers/2503.03803">Paper</NavItem>
               <NavItem href="https://egolife-ai.github.io/blog">Blog</NavItem>
               <li>
                 <h1>
@@ -140,7 +140,7 @@ export default function Home() {
         >
           <nav className="grid w-full place-items-center border-b border-white backdrop-blur">
             <ul className="flex gap-8">
-              <NavItem href="https://arxiv.org/">Paper</NavItem>
+              <NavItem href="https://huggingface.co/papers/2503.03803">Paper</NavItem>
               <NavItem href="https://egolife-ai.github.io/blog">Blog</NavItem>
               <li>
                 <h1>
