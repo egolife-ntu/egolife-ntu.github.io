@@ -77,7 +77,7 @@ export default function Home() {
                   />
                 </h1>
               </li>
-              <NavItem href="https://egolife.lmms-lab.com/">Demo</NavItem>
+              <NavItem href="https://huggingface.co/spaces/Jingkang/EgoGPT-7B">Demo</NavItem>
               <NavItem href="https://github.com/EvolvingLMMs-Lab/EgoLife">Code</NavItem>
             </ul>
           </nav>
@@ -152,7 +152,7 @@ export default function Home() {
                   />
                 </h1>
               </li>
-              <NavItem href="https://egolife.lmms-lab.com/">Demo</NavItem>
+              <NavItem href="https://huggingface.co/spaces/Jingkang/EgoGPT-7B">Demo</NavItem>
               <NavItem href="https://github.com/EvolvingLMMs-Lab/EgoLife">Code</NavItem>
             </ul>
           </nav>
