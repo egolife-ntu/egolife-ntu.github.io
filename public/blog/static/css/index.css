@@ -12,6 +12,86 @@ body {
     margin-bottom: 5px;
 }
 
+.publication-links-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.publication-links-row + .publication-links-row {
+    margin-top: 0.35rem;
+}
+
+.award-banner-section {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+}
+
+.award-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #fff9e6 0%, #fff3cc 45%, #ffe8a3 100%);
+    border: 1px solid #e6c76b;
+    box-shadow: 0 8px 24px rgba(180, 130, 20, 0.12);
+}
+
+.award-banner-icon {
+    font-size: 2rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.award-banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.award-banner-label {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #9a7b1a;
+}
+
+.award-banner-title {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #5c4a00;
+    line-height: 1.35;
+}
+
+@media screen and (max-width: 768px) {
+    .award-banner {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1rem 1.25rem;
+        border-radius: 1rem;
+        text-align: center;
+    }
+
+    .award-banner-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .award-banner-title {
+        font-size: 1rem;
+    }
+}
+
 .dnerf {
     font-variant: small-caps;
 }
